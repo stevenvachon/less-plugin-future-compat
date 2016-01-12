@@ -1,0 +1,38 @@
+{
+  "name": "less-plugin-future-compat",
+  "description": "Less.js plugin to avoid conflicts with future CSS features.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "homepage": "https://github.com/stevenvachon/less-plugin-future-compat",
+  "author": {
+    "name": "Steven Vachon",
+    "email": "contact@svachon.com",
+    "url": "http://www.svachon.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stevenvachon/less-plugin-future-compat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stevenvachon/less-plugin-future-compat/issues"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "less": "^2.5.3",
+    "mocha": "^2.3.4"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "scripts": {
+    "test": "mocha test.js --reporter spec --check-leaks --bail"
+  },
+  "files": [
+    "index.js",
+    "license"
+  ],
+  "keywords": [
+    "future",
+    "less plugins"
+  ]
+}
