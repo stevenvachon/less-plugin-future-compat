@@ -17,6 +17,7 @@ module.exports =
 		delete functions.lightness;
 		delete functions.red;
 		delete functions.rgb;
+		delete functions.saturation;
 		delete functions.shade;
 		delete functions.tint;
 	}

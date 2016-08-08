@@ -14,6 +14,7 @@ properties += "  color: color(yellow green(25%));\n";
 properties += "  color: color(yellow hue(25deg));\n";
 properties += "  color: color(yellow lightness(25%));\n";
 properties += "  color: color(yellow red(25%));\n";
+properties += "  color: color(yellow saturation(25%));\n";
 properties += "  color: color(yellow shade(25%));\n";
 properties += "  color: color(yellow tint(25%));\n";
 
